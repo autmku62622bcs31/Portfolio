@@ -75,33 +75,33 @@ function Header() {
       </button>
 
       {/* Mobile Navigation */}
-      <div className={`absolute top-full left-0 w-full bg-white/98 backdrop-blur-md shadow-lg md:hidden transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
+      <div className={`absolute top-full left-0 w-full bg-white/70 backdrop-blur-md shadow-lg md:hidden transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
         <nav className="flex flex-col p-6 gap-4">
           <a 
             href="#about" 
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700 text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
+            className="text-black text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
           >
             About
           </a>
           <a 
             href="#skills" 
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700 text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
+            className="text-black text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
           >
             Skills
           </a>
           <a 
             href="#projects" 
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700 text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
+            className="text-black text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
           >
             Projects
           </a>
           <a 
             href="#education" 
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700 text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
+            className="text-black text-base font-medium py-3 px-4 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 border-l-4 border-transparent hover:border-primary"
           >
             Education
           </a>
